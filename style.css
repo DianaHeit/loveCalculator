@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -20,6 +20,7 @@ main {
 h1 {
   font-family: 'Parisienne', cursive;
   font-size: 4rem;
+  text-align: center;
 }
 
 input, button {
@@ -45,4 +46,9 @@ button {
   color: #fff;
   border-radius: 10px;
   padding: 30px;
+}
+
+
+.big {
+  height: 500px;
 }
